@@ -6,8 +6,8 @@ Based on Ubuntu 18.04 - Apache and PHP 7.2
 
 **Installation**
 -------------------
-git clone https://github.com/rkmaier/docker-lamp
-cd docker-lamp
+- git clone https://github.com/rkmaier/docker-lamp
+- cd docker-lamp
 
 **Configuration and Usage**
 ----------------------------
@@ -60,4 +60,4 @@ services:
       - db
 ```
 
-docker-compose up -d 
+ - docker-compose up -d 
