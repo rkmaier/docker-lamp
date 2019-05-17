@@ -14,6 +14,7 @@ Based on Ubuntu 18.04 - Apache and PHP 7.2
 - move your app files into the **public** directory
 - create/import your database inside **database_1**
 - modify the **docker-compose** file according your needs
+- docker-compose up -d 
 
 
 ```yaml
@@ -60,4 +61,4 @@ services:
       - db
 ```
 
- - docker-compose up -d 
+
