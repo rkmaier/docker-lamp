@@ -1,6 +1,6 @@
 # Lamp stack for local development
 
-## Apache and PHP + Maria DB  + Adminer
+## Apache and PHP + NodeJS + Maria DB  + Adminer
 Based on Ubuntu 18.04 - Apache and PHP 7.2
 
 
