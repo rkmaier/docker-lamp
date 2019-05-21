@@ -42,13 +42,11 @@ services:
     volumes:
       - ./data:/var/lib/mysql
       - ./docker/conf/my.cnf:/etc/mysql/my.cnf
-      - ./docker/scripts/mariadb_init.sh:/mariadb_init.sh
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_USER: erik
       MYSQL_PASSWORD: skipjack
       MYSQL_DATABASE: database_1
-
   adminer:
     container_name: adminer
     image: adminer
