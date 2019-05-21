@@ -33,7 +33,6 @@ services:
     volumes:
       - ./public:/var/www/public
       - ./data/logs/apache:/var/log/apache2
-
   db:
     container_name: database_1
     image: mariadb:10.0
